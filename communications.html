@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Communications | ATI Pilots · ALPA</title>
+  <meta name="description" content="The official site of the Air Transport International Master Executive Council of the Air Line Pilots Association, International." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="comms">
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><i data-icon="chevron"></i><span>Communications</span></nav>
+        <h1>Communications</h1>
+        <p>MEC Alerts, Skypointer, Hotline updates, the SPSC Newsletter and every all-pilot call, all in one searchable feed.</p>
+      </div>
+    </section>
+    <section class="section section--tight">
+      <div class="container" data-comms>
+        <div class="filterbar">
+          <div class="chips" role="toolbar" aria-label="Filter by type"></div>
+          <label class="searchbox"><i data-icon="search"></i><span class="sr-only">Search communications</span><input type="search" placeholder="Search communications" /></label>
+        </div>
+        <div data-out></div>
+      </div>
+    </section>
+    <section class="section section--alt">
+      <div class="container call-feature">
+        <a class="player reveal" href="#" aria-label="Play the latest all-pilot call">
+          <div class="player__meta"><span>ATI MEC · All-Pilot Call</span><span>1:12:40</span></div>
+          <span class="player__play"><i data-icon="play"></i></span>
+        </a>
+        <div class="reveal" data-delay="1">
+          <span class="eyebrow">Recordings</span>
+          <h2 class="h2" style="margin-top:16px">All-Pilot Calls</h2>
+          <div class="call-list" data-calls></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
